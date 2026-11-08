@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Scentology/static/css/main.67009e37.css",
+    "main.js": "/Scentology/static/js/main.8d1fdcc4.js",
+    "static/js/787.28cb0dcd.chunk.js": "/Scentology/static/js/787.28cb0dcd.chunk.js",
+    "static/media/about.jpg": "/Scentology/static/media/about.1961533505f279391c7b.jpg",
+    "static/media/images.jpg": "/Scentology/static/media/images.977e418ec860ab7eb6fe.jpg",
+    "static/media/contact.jpg": "/Scentology/static/media/contact.1a157b1f6517d93657c7.jpg",
+    "static/media/creed.jpg": "/Scentology/static/media/creed.84babc07864dfd320751.jpg",
+    "static/media/azzaro.jpg": "/Scentology/static/media/azzaro.a59d2e6d0e465db93619.jpg",
+    "static/media/imagination.jpg": "/Scentology/static/media/imagination.33ef4e3b713613a15706.jpg",
+    "static/media/swy.jpg": "/Scentology/static/media/swy.1b995560125cdf82d811.jpg",
+    "index.html": "/Scentology/index.html",
+    "main.67009e37.css.map": "/Scentology/static/css/main.67009e37.css.map",
+    "main.8d1fdcc4.js.map": "/Scentology/static/js/main.8d1fdcc4.js.map",
+    "787.28cb0dcd.chunk.js.map": "/Scentology/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67009e37.css",
+    "static/js/main.8d1fdcc4.js"
+  ]
+}
