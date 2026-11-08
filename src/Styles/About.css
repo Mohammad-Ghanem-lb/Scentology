@@ -1,0 +1,48 @@
+.about {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTop {
+  width: 100%;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.aboutBottom h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #20272c;
+}
+
+.aboutBottom p {
+  font-size: 20px;
+  color: #555;
+  max-width: 800px;
+  line-height: 1.8;
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutTop {
+    height: 250px;
+  }
+  .aboutBottom h1 {
+    font-size: 35px;
+  }
+  .aboutBottom p {
+    font-size: 16px;
+    padding: 10px;
+  }
+}

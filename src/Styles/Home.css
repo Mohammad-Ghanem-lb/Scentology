@@ -1,0 +1,71 @@
+.home {
+  /* توسيط المربع في منتصف الشاشة */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  /* إعدادات الخلفية */
+  width: 100%;
+  min-height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.headerContainer {
+  /* تأثير الزجاج الفاخر */
+  background: rgba(15, 20, 25, 0.55); 
+  backdrop-filter: blur(12px); 
+  -webkit-backdrop-filter: blur(12px); 
+  
+  /* الأبعاد والحواف */
+  padding: 60px 80px; 
+  border-radius: 20px; 
+  border: 1px solid rgba(255, 255, 255, 0.15); 
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4); 
+  
+  /* ترتيب العناصر داخل المربع */
+  text-align: center;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerContainer h1 {
+  color: white;
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.headerContainer p {
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.headerContainer button {
+  margin-top: 30px;
+  padding: 15px 40px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 4px; 
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.headerContainer button:hover {
+  background-color: white;
+  color: #0f1419;
+  border-color: white;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+}

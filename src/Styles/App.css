@@ -1,0 +1,96 @@
+:root {
+  --bg-page: #2022222a;    /* خلفية رمادية فاتحة لكل الصفحات */
+  --header-bg: #111111;  /* أسود للناف بار والفوتر */
+  --text-dark: #111111;  /* لون النصوص داخل البطاقات والصفحات */
+}
+
+/* 1. خلفية رمادية شاملة للصفحات */
+body, 
+.bg-light, 
+.bg-white, 
+.contact,
+.menu,
+.quiz-container,
+.about .bg-light {
+  background-color: var(--bg-page) !important;
+}
+
+/* 2. الناف بار والفوتر باللون الأسود */
+.navbar, footer, .footer {
+  background-color: var(--header-bg) !important;
+  border-bottom: 1px solid #222222;
+}
+
+/* شعار SCENTOLOGY في الناف بار */
+.navbar-brand {
+  color: #ffffff !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: bold !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase;
+  opacity: 1 !important;
+}
+
+/* روابط الناف بار */
+.nav-link {
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-size: 0.95rem !important;
+  font-weight: bold !important;
+  color: #ffffff !important;
+  letter-spacing: 1px;
+}
+
+.nav-link:hover {
+  color: #dddddd !important;
+}
+
+/* 3. العناوين والنصوص داخل الصفحات الفاتحة */
+h1:not(.home h1):not(.about-hero-title), 
+h2, h3, h4, h5 {
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: bold !important;
+  color: var(--text-dark) !important;
+}
+
+/* 4. تثبيت اللون الأبيض لصفحة Home وصفحة About فوق الصور */
+.home h1, 
+.home p,
+.about-hero-title,
+.about-hero-subtitle,
+.about h1,
+.about p.lead {
+  color: #ffffff !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  opacity: 1 !important;
+}
+
+/* 5. كروت المنتجات والمحتوى الداخلي */
+.card {
+  background-color: #ffffff !important;
+  border: 1px solid #e0e0e0 !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08) !important;
+}
+
+/* 6. الأزرار وحقول الإدخال */
+.btn-dark {
+  background-color: #111111 !important;
+  color: #ffffff !important;
+  border-color: #111111 !important;
+}
+
+.form-control {
+  border-radius: 4px !important;
+  border: 1px solid #ccc !important;
+  background-color: #ffffff !important;
+}
+
+/* 7. التنعيم العام للنصوص */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
