@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import homeBg from "../Assets/images.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -15,7 +14,6 @@ function Home() {
         minHeight: "90vh",
       }}
     >
-      {/* المربع الشفاف النصي */}
       <div 
         className="p-5 rounded-3 shadow-lg"
         style={{ 

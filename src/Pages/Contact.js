@@ -19,7 +19,6 @@ function Contact() {
   return (
     <div className="contact container-fluid py-5">
       <div className="row align-items-stretch shadow-lg rounded-3 overflow-hidden bg-light container mx-auto">
-        {/* Left side (image) */}
         <div
           className="col-md-6 d-none d-md-block p-0"
           style={{
@@ -28,8 +27,6 @@ function Contact() {
             backgroundPosition: "center",
           }}
         ></div>
-
-        {/* Right side (form) */}
         <div className="col-md-6 p-5 bg-white">
           <h1 className="mb-4 text-dark fw-bold">Contact Us</h1>
           <form onSubmit={handleSubmit}>

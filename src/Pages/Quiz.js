@@ -26,7 +26,6 @@ const Quiz = () => {
   ];
 
   const handleAnswerOptionClick = (keyword) => {
-    // إضافة الإجابة الحالية إلى مصفوفة الاختيارات
     const newChoices = [...userChoices, keyword];
     setUserChoices(newChoices);
 
@@ -41,22 +40,21 @@ const Quiz = () => {
   const resetQuiz = () => {
     setCurrentQuestion(0);
     setShowResult(false);
-    setUserChoices([]); // تصفير الإجابات عند إعادة الاختبار
+    setUserChoices([]); 
   };
 
-  // دالة تحديد العطر المناسب بناءً على الإجابات
   const getRecommendedPerfumes = () => {
     const isMorning = userChoices.includes("Morning");
     const isSpecial = userChoices.includes("Special");
 
     if (isMorning && !isSpecial) {
-      return perfumes.filter((p) => p.id === 1); // Imagination
+      return perfumes.filter((p) => p.id === 1); 
     } else if (isMorning && isSpecial) {
-      return perfumes.filter((p) => p.id === 2); // Creed Aventus
+      return perfumes.filter((p) => p.id === 2); 
     } else if (!isMorning && !isSpecial) {
-      return perfumes.filter((p) => p.id === 3); // Azzaro Wanted
+      return perfumes.filter((p) => p.id === 3); 
     } else {
-      return perfumes.filter((p) => p.id === 4); // Stronger With You
+      return perfumes.filter((p) => p.id === 4); 
     }
   };
 
@@ -94,7 +92,6 @@ const Quiz = () => {
           <h4 className="mt-4 fw-bold">{questions[currentQuestion].questionText}</h4>
           
           <div className="quiz-options">
-            {/* إرسال الكلمة المفتاحية عند الضغط على الزر */}
             {questions[currentQuestion].answerOptions.map((option, index) => (
               <button key={index} onClick={() => handleAnswerOptionClick(option.keyword)}>
                 {option.answerText}

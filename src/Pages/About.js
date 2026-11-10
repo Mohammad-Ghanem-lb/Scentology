@@ -1,4 +1,3 @@
-import React from "react";
 import aboutImage from "../Assets/about.jpg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
@@ -6,7 +5,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 function About() {
   return (
     <div className="about">
-      {/* Hero section */}
       <section
         className="position-relative text-white"
         style={{
@@ -30,7 +28,6 @@ function About() {
         </div>
       </section>
 
-      {/* Content section */}
       <section className="py-5 bg-light">
         <div className="container">
           <div className="row justify-content-center">
