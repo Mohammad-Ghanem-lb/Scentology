@@ -6,8 +6,6 @@ import "../Styles/Quiz.css";
 const Quiz = () => {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [showResult, setShowResult] = useState(false);
-  
-  // حالة جديدة لحفظ الكلمات المفتاحية لإجابات المستخدم
   const [userChoices, setUserChoices] = useState([]);
 
   const questions = [
